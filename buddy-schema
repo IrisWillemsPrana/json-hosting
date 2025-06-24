@@ -6,11 +6,8 @@
       "description": "Algemeen advies voor de gebruiker"
     },
     "waarom_deze_buddy": {
-      "type": "array",
+      "type": "string",
       "description": "Redenen waarom deze buddy geschikt is",
-      "items": {
-        "type": "string"
-      }
     },
     "email_buddy": {
       "type": "string",
