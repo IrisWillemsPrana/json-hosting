@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "algemeen_advies": {
+      "type": "string",
+      "description": "Algemeen advies voor de gebruiker"
+    },
+    "waarom_deze_buddy": {
+      "type": "array",
+      "description": "Redenen waarom deze buddy geschikt is",
+      "items": {
+        "type": "string"
+      }
+    },
+    "email_buddy": {
+      "type": "string",
+      "format": "email",
+      "description": "E-mailadres van de gekozen buddy"
+    },
+    "conclusie": {
+      "type": "string",
+      "description": "Afsluitende conclusie of aanmoediging"
+    }
+  },
+  "required": ["algemeen_advies", "waarom_deze_buddy", "email_buddy", "conclusie"]
+}
