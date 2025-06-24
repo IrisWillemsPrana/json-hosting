@@ -7,7 +7,7 @@
     },
     "waarom_deze_buddy": {
       "type": "string",
-      "description": "Redenen waarom deze buddy geschikt is",
+      "description": "Redenen waarom deze buddy geschikt is"
     },
     "email_buddy": {
       "type": "string",
