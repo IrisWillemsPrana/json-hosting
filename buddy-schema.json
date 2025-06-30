@@ -14,6 +14,14 @@
       "format": "email",
       "description": "E-mailadres van de gekozen buddy"
     },
+      "voornaam_buddy": {
+      "type": "string",
+      "description": "Voornaam van de gekozen buddy"
+    },
+      "achternaam_buddy": {
+      "type": "string",
+      "description": "Achternaam van de gekozen buddy"
+    },
     "conclusie": {
       "type": "string",
       "description": "Afsluitende conclusie of aanmoediging"
